@@ -34,18 +34,6 @@ Kp1     Kp2     Kp3        Enter
     Kp0         KpDot
 """
 
-[[layer]]
-name = "second_layer"
-keys = """
-TD(1)  TO(0)        WM(W,LShift)         No
-DF(0)  LT(1, Space) LM(0, LShift | RGui) 
-OSL(0) OSM(LAlt)    TH(Kp1, Kp2)        SHIFTED(Kp2)
-    @my_copy        @my_paste
-"""
-
-[aliases]
-my_copy = "WM(C, LCtrl)"
-my_paste = "WM(V, LCtrl)"
 
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
@@ -62,6 +50,10 @@ capslock.low_active = false
 enabled = true
 # vddh has an internal voltage divider
 battery_adc_pin = "vddh"
+
+
+[vial]
+vial_lock = false
 
 
 [rmk]
