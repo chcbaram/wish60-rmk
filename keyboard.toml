@@ -19,7 +19,6 @@ rows = 15
 cols = 5
 layers = 8
 
-
 [light]
 # All light pins are high-active by default, uncomment if you want it to be low-active
 capslock.pin = "P0_05"
