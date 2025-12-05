@@ -37,8 +37,10 @@ enabled = true
 battery_adc_pin = "vddh"
 
 
-[vial]
-vial_lock = false
+[host]
+# Unlock combination: simultaneous press of specified keys
+# Format: [[row, col], [row, col], ...]
+unlock_keys = [[0, 0], [0, 1]]  # Keys at (row=0,col=0) and (row=0,col=1)
 
 
 [rmk]
