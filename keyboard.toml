@@ -42,7 +42,7 @@ keys = """
 _ F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 del
 _ User0 User1 User2 User3 User4 User5 User6 _ _ _ _ _ _
 _ _ _ _ _ _ _ _ _ _ _ _ _ 
-_ _ _ _ _ _ _ _ _ _ _ _ 
+_ _ _ _ _ Bootloader _ _ _ _ _ _ 
 _ _ _ _ _ _ _ _ 
 
 """
