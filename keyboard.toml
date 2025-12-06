@@ -62,7 +62,7 @@ capslock.low_active = false
 enabled = true
 # vddh has an internal voltage divider
 battery_adc_pin = "vddh"
-
+default_tx_power = 8
 
 [host]
 # Unlock combination: simultaneous press of specified keys
