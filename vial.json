@@ -1,7 +1,7 @@
 {
     "name": "WISH60-BLE-RMK",
-    "vendorId": "0x4C4B",
-    "productId": "0x4643",
+    "vendorId":  "0xBA02",
+    "productId": "0x0005",
     "lighting": "none",
     "matrix": {
         "rows": 15,
@@ -44,7 +44,6 @@
             "shortName": "Switch\nOutput"
         }
     ],    
-    "lighting": "none",
     "layouts": {
       "labels": [
         "Split Bacspace",
