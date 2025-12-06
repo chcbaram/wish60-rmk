@@ -33,7 +33,7 @@ grv  1 2 3 4 5 6 7 8    9   0    mins eql       bspc
 Tab  Q W E R T Y U I    O   P    lbrc rbrc bsls
 caps A S D F G H J K    L   scln quot      ent
 lsft Z X C V B N M comm Dot slsh      rsft
-lctl lwin l_alt  spc    r_alt    MO(1) Menu rctl
+lctl lwin l_alt  spc    r_alt    MO(1) _ rctl
 """
 
 [[layer]]
@@ -55,7 +55,7 @@ capslock.low_active = false
 [storage]
 # Storage feature is enabled by default
 # enabled = false
-# clear_storage = true
+clear_storage = true
 
 
 [ble]
